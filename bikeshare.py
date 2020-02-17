@@ -159,7 +159,7 @@ def display_data(df):
     start_location = 0
     end_location = 5
     
-    raw_data = input("Would you like to see the raw data?: ").lower()
+    raw_data = input("Would you like to display the raw data?: ").lower()
     if raw_data == "yes":
         while end_location <= df.shape[0]:
             print(df.iloc[start_location:end_location])
